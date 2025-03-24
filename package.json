@@ -1,0 +1,28 @@
+{
+  "name": "new-npm-experiment",
+  "version": "0.0.1",
+  "private": true,
+  "description": "npm experiment",
+  "license": "ISC",
+  "author": "adrian",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.2.1"
+  },
+  "dependencies": {
+    "plotly.js-dist-min": "^3.0.1"
+  }
+}
